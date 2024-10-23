@@ -2,6 +2,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
+    background-color: #f9f9f9;
 }
 
 /* Create at least one class, apply it to at least two elements, and style it. */
@@ -17,8 +18,14 @@ body {
     padding-bottom: 20px;
 }
 
-/* Use <div> to create at least two sections of content on the page. */
-/* Already done in HTML with multiple <div class="section"> */
+/* Style the sections using the .section class */
+.section {
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
 
 /* Use a CSS selector to change the color of <a> when you hover the cursor over it. */
 a:hover {
@@ -27,10 +34,12 @@ a:hover {
 }
 
 /* Change at least two box model properties of any tag, class, or id. */
-/* Adjusting padding and margin of the .section class */
-.section {
-    padding: 10px;
-    margin-bottom: 20px;
+/* Adjusting padding and margin of the .section class (already done above) */
+/* Adjusting padding and margin of the img tag */
+img {
+    border-radius: 50%;
+    margin-top: 10px;
+    border: 2px solid #ddd; /* Additional box model property */
 }
 
 /* Additional styling */
@@ -38,12 +47,8 @@ a:hover {
 /* Style for h1 in header */
 #header h1 {
     margin-top: 0;
-}
-
-/* Style for images */
-img {
-    border-radius: 50%;
-    margin-top: 10px;
+    font-size: 36px;
+    color: #333;
 }
 
 /* Style for h2 in sections */
@@ -51,4 +56,34 @@ img {
     color: #333;
     border-bottom: 1px solid #ddd;
     padding-bottom: 5px;
+}
+
+/* Style for unordered lists */
+.section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+/* Style for list items */
+.section li {
+    margin-bottom: 15px;
+}
+
+/* Style for h3 inside list items */
+.section li h3 {
+    margin: 0;
+    color: #555;
+}
+
+/* Ensure links are styled appropriately */
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+/* Style the footer link separately if needed */
+.footer-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
 }
