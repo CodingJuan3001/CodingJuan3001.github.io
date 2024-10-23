@@ -1,0 +1,54 @@
+/* Use a CSS selector to apply style(s) to at least one HTML tag. */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Create at least one class, apply it to at least two elements, and style it. */
+.contact-info {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Create at least one id, apply it to an element, and style it. */
+#header {
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 20px;
+}
+
+/* Use <div> to create at least two sections of content on the page. */
+/* Already done in HTML with multiple <div class="section"> */
+
+/* Use a CSS selector to change the color of <a> when you hover the cursor over it. */
+a:hover {
+    color: #ff6600;
+    text-decoration: underline;
+}
+
+/* Change at least two box model properties of any tag, class, or id. */
+/* Adjusting padding and margin of the .section class */
+.section {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Additional styling */
+
+/* Style for h1 in header */
+#header h1 {
+    margin-top: 0;
+}
+
+/* Style for images */
+img {
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+/* Style for h2 in sections */
+.section h2 {
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
